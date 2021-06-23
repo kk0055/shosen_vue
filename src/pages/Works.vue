@@ -15,24 +15,24 @@
 <div class="list-flex">
 <div class="list">
 
-<a href="works2.html">
+<router-link class="list-works" to="/about">
 <figure><img src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg" alt=""></figure>
 <h4>事業紹介</h4>
-</a>
+</router-link>
 </div>
 
 <div class="list">
-<a href="vanilla.html">
+<router-link class="list-works" to="/vanilla">
 <figure><img src="images/vanila.png"  alt=""></figure>
 <h4>バニラビーンズ</h4>
-</a>
+</router-link>
 </div>
 
 <div class="list">
-<a href="products.html">
+<router-link class="list-works" to="/products">
 <figure><img src="images/works3.png" alt=""></figure>
 <h4>商品紹介</h4>
-</a>
+</router-link>
 </div>
 </div>
 

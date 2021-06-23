@@ -341,14 +341,19 @@ header .icon img {
 	background: #000;	/*背景色*/
 }
 .list img{
-	width:303px;
-	height:303px;
+	width:100%;
+	height:370px;
 }
 .works-image{
 	width:350px;
 	height:400px;
 }
 .list a {
+	display: block;
+	text-decoration: none;
+}
+
+.list-works {
 	display: block;
 	text-decoration: none;
 }
@@ -389,6 +394,17 @@ header .icon img {
 	text-align: center;	/*内容をセンタリング*/
 	padding: 10px 0;	/*上下、左右への余白*/
 }
+
+.about-image{
+  display: flex;
+	flex-direction: row;
+}
+.works-image{
+	margin: 2em;
+}
+
+
+
 
 /*footerブロック
 ---------------------------------------------------------------------------*/
@@ -608,8 +624,16 @@ header.sh .logo {
 	height:250px;
 }
 
-
-
+.about-image{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+}
+.works-image {
+	width:250px;
+	height:250px;
+}
 
 /*メインメニュー
 ---------------------------------------------------------------------------*/

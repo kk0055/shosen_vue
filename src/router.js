@@ -5,7 +5,7 @@ import Company from '@/pages/Company'
 import Works from '@/pages/Works' 
 // import Links from '@/pages/Links' 
 // import Contact from '@/pages/Contact' 
-// import About from '@/pages/About' 
+import About from '@/pages/About' 
 // import Vanilla from '@/pages/Vanilla' 
 // import Products from '@/pages/Products' 
 
@@ -40,11 +40,11 @@ export default new Router({
     //   name: 'contact', 
     //   component: Contact 
     // },
-    // {
-    //   path: '/about',
-    //   name: 'about', 
-    //   component: About 
-    // },
+    {
+      path: '/about',
+      name: 'about', 
+      component: About 
+    },
     // {
     //   path: '/vanilla',
     //   name: 'vanilla', 
