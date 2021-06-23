@@ -6,8 +6,8 @@ import Works from '@/pages/Works'
 // import Links from '@/pages/Links' 
 // import Contact from '@/pages/Contact' 
 import About from '@/pages/About' 
-// import Vanilla from '@/pages/Vanilla' 
-// import Products from '@/pages/Products' 
+import Vanilla from '@/pages/Vanilla' 
+import Products from '@/pages/Products' 
 
 
 Vue.use(Router)
@@ -45,16 +45,16 @@ export default new Router({
       name: 'about', 
       component: About 
     },
-    // {
-    //   path: '/vanilla',
-    //   name: 'vanilla', 
-    //   component: Vanilla 
-    // },
-    // {
-    //   path: '/products',
-    //   name: 'products', 
-    //   component: Products 
-    // },
+    {
+      path: '/vanilla',
+      name: 'vanilla', 
+      component: Vanilla 
+    },
+    {
+      path: '/products',
+      name: 'products', 
+      component: Products 
+    },
 
   
   ]

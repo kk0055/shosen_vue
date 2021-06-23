@@ -63,11 +63,6 @@
 </div>
 <!--/#container-->
 
-<!--ページの上部に戻る「↑」ボタン-->
-<p class="nav-fix-pos-pagetop"><a href="#pagetop">↑</a></p>
-
-<!--メニュー開閉ボタン-->
-<div id="menubar_hdr" class="close"></div>
 
 </div>
 </template>
