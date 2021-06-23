@@ -3,7 +3,7 @@
     <!--PC用（801px以上端末）で表示させるブロック-->
 <header class="pc">
 
-	<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
+	<h1 class="logo"><router-link to="/"><img src="images/logo.png" alt="Logo"></router-link></h1>
 
 	<!--PC用（801px以上端末）メニュー-->
 	<nav id="menubar">
