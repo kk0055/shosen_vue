@@ -603,11 +603,11 @@ header.sh .logo {
 
 /*マウスオン時のheaderブロック*/
 header.pc {
-	width: 40px;	/*幅*/
+	width: 30px;	/*幅*/
 
 }
 header.pc:hover {
-	width: 30%;	/*幅*/
+	width: 40%;	/*幅*/
 
 }
 
