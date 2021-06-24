@@ -621,8 +621,11 @@ header.pc:hover {
 #menubar li a{
 	border-bottom: 0px solid rgba(157, 95, 95, 0);
 }
-
-
+/*マウスオン時*/
+header:hover #menubar li a:hover {
+	background-color:rgba(157, 95, 95, 0) ;	/*背景色*/
+	color: #fff;				/*文字色*/
+}
 .menuimg a {
 	width: 0px;	/*幅*/
 	height: 0px;	/*高さ*/
