@@ -12,6 +12,8 @@ import Products from '@/pages/Products'
 
 Vue.use(Router)
 
+
+
 export default new Router({
   mode: 'history',  
   routes: [

@@ -28,34 +28,7 @@
 </header>
 <!--/.pc-->
 
-<!--小さな端末用（800px以下端末）で表示させるブロック-->
-<header class="sh">
 
-	<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
-
-	<!--小さな端末用（800px以下端末）メニュー-->
-	<div id="menubar-s">
-	<nav>
-	<ul>
-	<li class="menuimg menu1 "><router-link to="/"><span>Home</span></router-link></li>
-	<li class="menuimg menu2 current"><router-link to="/company"><span>Company</span></router-link></li>
-	<li class="menuimg menu3"><router-link to="/works"><span>Works</span></router-link></li>
-	<li class="menuimg menu4"><router-link to="/links"><span>Links</span></router-link></li>
-	<li class="menuimg menu5"><router-link to="/contact"><span>Contact</span></router-link></li>
-	</ul>
-	</nav>
-	<ul class="icon">
-	<li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
-	<li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
-	<li><a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a></li>
-	<li><a href="#"><img src="images/icon_youtube.png" alt="YouTube"></a></li>
-	</ul>
-	
-	</div>
-	<!--/#menubar-s-->
-
-</header>
-<!-- <Header/> -->
 
 <div id="contents">
 
@@ -181,9 +154,22 @@
 
 </div>
 <!--/#container-->
+   <!--ページの上部に戻る「↑」ボタン-->
+     <p class="nav-fix-pos-pagetop"><a href="#pagetop">↑</a></p>
 
+     <!--メニュー開閉ボタン-->
+     <div id="menubar_hdr" class="close"></div>   
 
 
 </div>
 
 </template>
+<script>
+export default {
+	  computed: {
+    username () {
+      return this.$route
+    }
+		}
+}
+</script>

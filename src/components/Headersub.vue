@@ -31,17 +31,16 @@
 
 <!--小さな端末用（800px以下端末）で表示させるブロック-->
 <header class="sh">
-<!-- <button onclick="myFunction()" id="menubar">aaaaa</button> -->
+
 	<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
 
 	<!--小さな端末用（800px以下端末）メニュー-->
 	<div id="menubar-s">
 	<nav>
 	<ul>
-	<li class="menuimg menu1"><router-link to="/" exact-active-class="current close"><span>Home</span>
-</router-link></li>
-	<li class="menuimg menu2 close" ><router-link to="/company"  exact-active-class="current close"><span>Company</span></router-link></li>
-	<li class="menuimg menu3"><router-link to="/works" exact><span>Works</span></router-link></li>
+	<li class="menuimg menu1"><router-link to="/"><span>Home</span></router-link></li>
+	<li class="menuimg menu2"><router-link to="/company"><span>Company</span></router-link></li>
+	<li class="menuimg menu3"><router-link to="/works"><span>Works</span></router-link></li>
 	<li class="menuimg menu4"><router-link to="/links"><span>Links</span></router-link></li>
 	<li class="menuimg menu5"><router-link to="/contact"><span>Contact</span></router-link></li>
 	</ul>

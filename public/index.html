@@ -8,6 +8,7 @@
   
     <title><%= htmlWebpackPlugin.options.title %></title>
      <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/print.css" media="print">
      <script src="js/openclose.js"></script>
    
   </head>
@@ -17,19 +18,27 @@
     </noscript>
     <div id="app">
 
-     <!--ページの上部に戻る「↑」ボタン-->
-     <p class="nav-fix-pos-pagetop"><a href="#pagetop">↑</a></p>
 
-     <!--メニュー開閉ボタン-->
-     <div id="menubar_hdr" class="close"></div> 
     </div>
    
-    <script>
-      if (OCwindowWidth() <= 800) {
-        open_close("menubar_hdr", "menubar-s");
-      }
-      </script>
+    
 
       
   </body>
+  <script>
+    if (OCwindowWidth() <= 800) {
+      open_close("menubar_hdr", "menubar-s");
+    }
+    </script>
+
+    <script>
+// function myFunction() {
+//   var x = document.getElementById("menubar-s");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
+    </script>
 </html>
