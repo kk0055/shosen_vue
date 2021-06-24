@@ -37,10 +37,11 @@
 </div>
 
 </section>
-
-
+    
+<p><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
 
 <footer>
+	
 	<small>Copyright&copy; <a href="index.html">株式会社SHOSEN</a> All Rights Reserved.</small>
 <span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
 </footer>

@@ -114,6 +114,7 @@
 
 </section>
 <!-- Box -->
+<p><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
 
 <footer>
 <small>Copyright&copy; <a href="index.html">株式会社SHOSEN</a> All Rights Reserved.</small>
