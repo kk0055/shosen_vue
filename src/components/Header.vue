@@ -13,10 +13,6 @@
 	<li class="menuimg menu3 "><router-link to="/works"><span>Works</span></router-link></li>
 	<li class="menuimg menu4 "><router-link to="/links"><span>Links</span></router-link></li>
 	<li class="menuimg menu5 "><router-link to="/contact"><span>Contact</span></router-link></li>
-	<!-- <li class="menuimg menu2"><a href="company.html"><span>Company</span></a></li>
-	<li class="menuimg menu3"><a href="works.html"><span>Works</span></a></li>
-	<li class="menuimg menu4"><a href="link.html"><span>Links</span></a></li>
-	<li class="menuimg menu5"><a href="contact.html"><span>Contact</span></a></li> -->
 	</ul>
 	</nav>
 	<ul class="icon">
