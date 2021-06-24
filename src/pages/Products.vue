@@ -3,8 +3,7 @@
 
   <div id="container">
 
-<!--PC用（801px以上端末）で表示させるブロック-->
-<header class="pc">
+
 
 	<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
 
