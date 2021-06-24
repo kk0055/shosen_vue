@@ -622,7 +622,7 @@ header.pc:hover {
 #menubar li a{
 	border-bottom: 0px solid rgba(157, 95, 95, 0);
 	padding-left: 20px;	/*左に空ける余白*/
-	width: 30px;
+	width: auto;
 }
 /*マウスオン時*/
 header:hover #menubar li a:hover {
