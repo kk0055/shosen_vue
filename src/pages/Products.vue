@@ -4,10 +4,6 @@
   <div id="container">
 
 
-
-	<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
-
-
     <div id="contents">
 
       <div id="main">
