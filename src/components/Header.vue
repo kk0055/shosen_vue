@@ -38,12 +38,12 @@
 	<div id="menubar-s">
 	<nav>
 	<ul>
-	<li class="menuimg menu1"><router-link to="/" exact-active-class="current close"><span>Home</span>
+	<li class="menuimg menu1"><router-link to="/" ><span>Home</span>
 </router-link></li>
-	<li class="menuimg menu2 close" ><router-link to="/company"  exact-active-class="current close"><span>Company</span></router-link></li>
-	<li class="menuimg menu3"><router-link to="/works" exact-active-class="current close"><span>Works</span></router-link></li>
-	<li class="menuimg menu4"><router-link to="/links" exact-active-class="current close"><span>Links</span></router-link></li>
-	<li class="menuimg menu5" exact-active-class="current close"><router-link to="/contact"><span>Contact</span></router-link></li>
+	<li class="menuimg menu2 close" ><router-link :to="{name:'company'}" ><span>Company</span></router-link></li>
+	<li class="menuimg menu3"><router-link :to="{name:'works'}" exact-active-class="current close"><span>Works</span></router-link></li>
+	<li class="menuimg menu4"><router-link :to="{name:'links'}"><span>Links</span></router-link></li>
+	<li class="menuimg menu5"><router-link :to="{name:'contact'}"><span>Contact</span></router-link></li>
 	</ul>
 	</nav>
 	<ul class="icon">

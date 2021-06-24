@@ -3,8 +3,8 @@ import Router from 'vue-router'
 import Top from '@/pages/Top' 
 import Company from '@/pages/Company' 
 import Works from '@/pages/Works' 
-// import Links from '@/pages/Links' 
-// import Contact from '@/pages/Contact' 
+import Links from '@/pages/Links' 
+import Contact from '@/pages/Contact' 
 import About from '@/pages/About' 
 import Vanilla from '@/pages/Vanilla' 
 import Products from '@/pages/Products' 
@@ -15,7 +15,7 @@ Vue.use(Router)
 
 
 export default new Router({
-  // mode: 'history',  
+  mode: 'history',  
   routes: [
     {
       path: '/',
@@ -33,16 +33,16 @@ export default new Router({
       name: 'works',
       component: Works 
     },
-    // {
-    //   path: '/links',
-    //   name: 'links', 
-    //   component: Links 
-    // },
-    // {
-    //   path: '/contact',
-    //   name: 'contact', 
-    //   component: Contact 
-    // },
+    {
+      path: '/links',
+      name: 'links', 
+      component: Links 
+    },
+    {
+      path: '/contact',
+      name: 'contact', 
+      component: Contact 
+    },
     {
       path: '/about',
       name: 'about', 
