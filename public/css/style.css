@@ -162,6 +162,7 @@ header.pc p {
 #menubar li {
 	font-size: 12px;	/*文字サイズ*/
 	position: relative;
+	
 }
 #menubar li a {
 	display:  block;text-decoration: none ;
@@ -597,9 +598,42 @@ ol {
 ---------------------------------------------------------------------------*/
 /*ロゴ画像ブロック*/
 header.sh .logo {
-	width: 80px;	/*ロゴ画像の幅*/
+	width: 50px;	/*ロゴ画像の幅*/
 }
 
+/*マウスオン時のheaderブロック*/
+header.pc {
+	width: 40px;	/*幅*/
+
+}
+header.pc:hover {
+	width: 30%;	/*幅*/
+
+}
+
+#menubar li {
+	font-size: 12px;	/*文字サイズ*/
+	position: relative;
+	border-bottom: 0px solid rgba(255,255,255,0.0);
+	/* background: #000; */
+}
+
+#menubar li a{
+	border-bottom: 0px solid rgba(157, 95, 95, 0);
+}
+
+
+.menuimg a {
+	width: 0px;	/*幅*/
+	height: 0px;	/*高さ*/
+	display: none ;
+	background-image: url(../images/icon.png);	/*背景画像の読み込み*/
+	background-repeat: no-repeat;
+
+	background-size: 0px 0px;	/*実際のアイコン画像（icon.png）全体の大きさの幅、高さのそれぞれ「半分」。解像度を高くするため半分の数字にしています。*/
+}
+
+	
 .list-flex {
 	display: flex;
 	flex-direction: column;
@@ -682,33 +716,15 @@ header.sh .logo {
 	padding-left: 80px;	/*左に空ける余白*/
 }
 /*menu1*/
-.menu1 a {
-	background-position: 20px 0px;
-}
-/*menu2*/
-.menu2 a {
-	background-position: 20px -60px;
-}
-/*menu3*/
-.menu3 a {
-	background-position: 20px -120px;
-}
-/*menu4*/
-.menu4 a {
-	background-position: 20px -180px;
-}
-/*menu5*/
-.menu5 a {
-	background-position: 20px -240px;
-}
+
 /*PC用メニューを非表示にする*/
-#menubar {display: none;}
+/* #menubar {display: none;} */
 
 /*３本バーアイコン設定
 ---------------------------------------------------------------------------*/
 /*３本バーブロック*/
 #menubar_hdr {
-	display: block;
+	display: none;
 	position: fixed;z-index: 50;
 	top: 10px;		/*上から10pxの場所に配置*/
 	right: 10px;	/*右から10pxの場所に配置*/
@@ -779,8 +795,8 @@ footer .pr {display: block;}
 
 /*その他
 ---------------------------------------------------------------------------*/
-.sh {display:block;}
-.pc {display:none;}
+/* .sh {display:block;} */
+/* .pc {display:none;} */
 
 }
 

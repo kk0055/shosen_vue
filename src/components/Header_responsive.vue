@@ -30,11 +30,11 @@
 <!--/.pc-->
 <!-- <button onclick="myFunction()" id="">aaaaa</button> -->
 <!--小さな端末用（800px以下端末）で表示させるブロック-->
-<!-- <header class="sh">
+<header class="sh">
 
 	<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
 
-
+	<!--小さな端末用（800px以下端末）メニュー-->
 	<div id="menubar-s">
 	<nav>
 	<ul>
@@ -43,7 +43,7 @@
 	<li class="menuimg menu2 close" ><router-link :to="{name:'company'}" ><span>Company</span></router-link></li>
 	<li class="menuimg menu3"><router-link :to="{name:'works'}" exact-active-class="current close"><span>Works</span></router-link></li>
 	<li class="menuimg menu4"><router-link :to="{name:'links'}"><span>Links</span></router-link></li>
-	<li class="menuimg menu5"><router-link to="{name:'contact'}"><span>Contact</span></router-link></li>
+	<li class="menuimg menu5"><router-link :to="{name:'contact'}"><span>Contact</span></router-link></li>
 	</ul>
 	</nav>
 	<ul class="icon">
@@ -54,11 +54,33 @@
 	</ul>
 	
 	</div>
-
-
-</header> -->
 	<!--/#menubar-s-->
+
+</header>
+
   </div>
 </template>
 
 
+<style lang=>
+.menu1 a {
+	background-position: 20px 0px;
+}
+/*menu2*/
+.menu2 a {
+	background-position: 20px -60px;
+}
+/*menu3*/
+.menu3 a {
+	background-position: 20px -120px;
+}
+/*menu4*/
+.menu4 a {
+	background-position: 20px -180px;
+}
+/*menu5*/
+.menu5 a {
+	background-position: 20px -240px;
+}
+	
+</style>
