@@ -60,7 +60,6 @@ export default new Router({
     },
     {
       path: '*',
-      component: Top, 
       redirect: '/'
     },
   
