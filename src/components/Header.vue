@@ -8,11 +8,11 @@
 	<!--PC用（801px以上端末）メニュー-->
 	<nav id="menubar">
 	<ul>
-	<li class="menuimg menu1 "><router-link to="/"><span>Home</span></router-link></li>
-	<li class="menuimg menu2 "><router-link to="/company"><span>Company</span></router-link></li>
-	<li class="menuimg menu3 "><router-link to="/works"><span>Works</span></router-link></li>
-	<li class="menuimg menu4 "><router-link to="/links"><span>Links</span></router-link></li>
-	<li class="menuimg menu5 "><router-link to="/contact"><span>Contact</span></router-link></li>
+	<li class="menuimg menu1 left"><router-link to="/"><span>Home</span></router-link></li>
+	<li class="menuimg menu2 left"><router-link to="/company"><span>Company</span></router-link></li>
+	<li class="menuimg menu3 left"><router-link to="/works"><span>Works</span></router-link></li>
+	<li class="menuimg menu4 left"><router-link to="/links"><span>Links</span></router-link></li>
+	<li class="menuimg menu5 left"><router-link to="/contact"><span>Contact</span></router-link></li>
 	</ul>
 	</nav>
 	<ul class="icon">

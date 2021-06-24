@@ -607,9 +607,10 @@ header.pc {
 
 }
 header.pc:hover {
-	width: 40%;	/*幅*/
+	width: 30%;	/*幅*/
 
 }
+
 
 #menubar li {
 	font-size: 12px;	/*文字サイズ*/
@@ -618,8 +619,11 @@ header.pc:hover {
 	/* background: #000; */
 }
 
+/* スマホのheaderの幅 */
 #menubar li a{
 	border-bottom: 0px solid rgba(157, 95, 95, 0);
+	padding-left: 50px;	/*左に空ける余白*/
+	width: 30px;
 }
 /*マウスオン時*/
 header:hover #menubar li a:hover {
