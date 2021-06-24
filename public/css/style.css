@@ -607,7 +607,7 @@ header.pc {
 
 }
 header.pc:hover {
-	width: 30%;	/*幅*/
+	width: 40%;	/*幅*/
 
 }
 
@@ -622,7 +622,7 @@ header.pc:hover {
 /* スマホのheaderの幅 */
 #menubar li a{
 	border-bottom: 0px solid rgba(157, 95, 95, 0);
-	padding-left: 50px;	/*左に空ける余白*/
+	padding-left: 20px;	/*左に空ける余白*/
 	width: 30px;
 }
 /*マウスオン時*/
