@@ -16,7 +16,7 @@
             <figure class="c mb30">
             <div class="container flex justify-center">
           
-              <img src="images/products_top.png" class="rounded-lg outline-none" width="20%" alt="写真の説明を入れます">
+              <img src="images/products_top.png" class="rounded-lg outline-none" width="20%" alt="">
          
           </div>   </figure>
             <!-- Block -->
@@ -28,7 +28,7 @@
 
               弊社では日本では珍しい使用用途に応じて、使用するバニラビーンズを使い分けが可能な、３種類のオーガニックバニラを揃えております。</h3>
             <br>
-            <img src="images/products1.png" alt="" class="works-image md:ml-3 my-5">
+            <img src="images/products1.png" alt="" class="works-image ">
             <br>
             <!-- Block -->
 
@@ -43,10 +43,10 @@
               <br>
               <div class="flex about-image ">
                 <div>
-                  <img src="images/products2.png" alt="" class="works-image md:mr-3 my-5" > 
+                  <img src="images/products2.png" alt="" class="works-image " > 
                 </div>
                 <div>
-                  <img src="images/products3.png" alt="" class="works-image md:ml-3 my-5" > 
+                  <img src="images/products3.png" alt="" class="works-image" > 
                 </div>
                 </div>
                 <br>
