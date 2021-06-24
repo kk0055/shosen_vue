@@ -22,6 +22,7 @@ export default new Router({
       name: 'top', 
       component: Top 
     },
+  
     {
       path: '/company',
       name: 'company', 
@@ -57,7 +58,10 @@ export default new Router({
       name: 'products', 
       component: Products 
     },
-
+    {
+      path: '*',
+      component: Top 
+    },
   
   ]
 })
