@@ -26,7 +26,7 @@
 <!--/.pc-->
 <!-- <button onclick="myFunction()" id="">aaaaa</button> -->
 <!--小さな端末用（800px以下端末）で表示させるブロック-->
-<header class="sh">
+<!-- <header class="sh">
 
 	<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></h1>
 
@@ -52,7 +52,7 @@
 	</div>
 
 
-</header>
+</header> -->
 	<!--/#menubar-s-->
   </div>
 </template>
