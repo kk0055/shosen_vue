@@ -585,7 +585,7 @@ ol {
 .fl {float: left;}
 .fr {float: right;}
 .mini1 {font-size: 11px;display: inline-block;line-height: 1.5;}
-.sh {display: none;}
+.sh {display: block;}
 #pagetop {display: block;margin-top: -2%;padding-top: 2%;}
 
 
